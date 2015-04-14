@@ -6,7 +6,7 @@
 
 ## Step 1 - Basic setup
 - Create and setup an index.html page
-- Insert the AngularJS CDN: http://cdnjs.cloudflare.com/ajax/libs/angular.js/1.3.3/angular.min.js
+- Insert the AngularJS CDN: <min class="js"></min>
 - Create an app.js file
 - Create a controller.js file
 - Create a service.js file
@@ -225,9 +225,9 @@ app.controller('MainController', function($scope, mainService) {
 });
 ```
 Now we have an object named "$scope.users" which represents our data. Because it is on the $scope object we can access it in our view by placing this within the body of our index.html:
-
-``` html
 {{users}}
+``` html
+
 ```
 
 # Step 6 - The View
